@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "test",
+      "setup": "javac -encoding utf-8 WordCounter.java; javac -encoding utf-8 WordCounterTester.java",
+      "run": "java WordCounterTester",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout-minutes": 5,
+      "points": 5
+    }, 
+    {
+      "name": "test",
+      "setup": "javac -encoding utf-8 FileSplitter.java; javac -encoding utf-8 FileSplitterTester.java",
+      "run": "java FileSplitterTester",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout-minutes": 5,
+      "points": 5
+    }
+  ]
+}
